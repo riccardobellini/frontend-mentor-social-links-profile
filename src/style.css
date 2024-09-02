@@ -12,4 +12,11 @@
     .social-link-btn {
         @apply hover:bg-green hover:text-gray-700 focus:bg-green focus:text-gray-700 block py-3 rounded-xl bg-gray-700 font-extrabold;
     }
+
+    .social-link-btn:hover,
+    .social-link-btn:focus {
+        transition: background 500ms ease-in-out;
+        transition: transform 250ms linear;
+        transform: scale(1.05);
+    }
 }
